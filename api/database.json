@@ -1,0 +1,50 @@
+{
+  "plumbers": [
+    {
+      "id": 1,
+      "name": "Maude"
+    },
+    {
+      "id": 2,
+      "name": "Merle"
+    }
+  ],
+  "completions": [
+    {
+      "requestId": 1,
+      "plumberId": 1,
+      "date_created": 1665060718227,
+      "id": 1
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "description": "Aut sint voluptatem fugit eius quas molestiae modi.",
+      "address": "34445 Bianka Ports",
+      "budget": 400,
+      "neededBy": "2021-08-27"
+    },
+    {
+      "id": 2,
+      "description": "Garbage Disposal not working.",
+      "address": "34445 Bianka Ports",
+      "budget": 500,
+      "neededBy": "2021-08-27"
+    },
+    {
+      "description": "sink is leaking",
+      "address": "1827 Uber Drive",
+      "budget": "300",
+      "neededBy": "2022-10-19",
+      "id": 3
+    },
+    {
+      "description": "I need a new Faucet ",
+      "address": "1823 Fax avenue",
+      "budget": "300",
+      "neededBy": "2022-10-13",
+      "id": 4
+    }
+  ]
+}

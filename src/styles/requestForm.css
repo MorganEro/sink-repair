@@ -1,0 +1,57 @@
+.field {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+.button {
+background-color: rgb(38, 38, 235);
+color: #f1e4e4;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+
+}
+.request__delete {
+    color: #f1e4e4;
+    background-color: blueviolet;
+    float: right;
+    margin-right:4px;
+    margin-top: 2.5px;
+    margin-bottom: 2;
+    height: 80%;
+   
+    
+
+}
+ul {
+    list-style-type: none;
+
+
+}
+li:nth-child(even) {
+    background-color: rgb(247, 221, 225);
+
+}
+
+li {
+    border:rgb(247, 221, 225) solid 1px;
+    height: 100%;
+    padding-left: 10px;
+    padding-top: 8px;
+
+  
+
+}
+li:before{
+    content: 'build';
+    font-family: 'Material Icons';
+    font-size: 25px;
+    vertical-align: -30%;
+   
+}
+
+.serviceRequests {
+    display:flex;
+    flex-direction: column;
+
+}
